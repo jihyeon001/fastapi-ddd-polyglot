@@ -1,5 +1,4 @@
 # fastapi-ddd-polyglot
-while working...
 DDD, CQRS, Polyglot
 
 ## Reference
