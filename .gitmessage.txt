@@ -1,27 +1,25 @@
 ################
-# git config --global commit.template .gitmessage.txt
 # <Type> : <Subject> 
 # 50자 이내 / 과거 시제 x / 마침표 x
-# 본문과 공백 한줄
+	# feat     : 기능 추가
+	# test     : 테스트 코드
+	# refactor : 리팩토링
+	# fix      : 버그 수정
+	# build    : 빌드 수정    
+	# ci       : CI 수정
+	# docs     : 문서 수정
+	# style    : 코드 형식 등
+	# chore    : 기타
 
 ################
 # Body
 # 한 줄에 72자 이내 / 여러 줄일 경우 "-"
 # What, Why 중심 서술
+# 제목과 공백 한줄
 
 ################
 # Footer
 # 커밋과 관련된 이슈 번호 등
 
 ################
-# Type 종류
-# feat     : 기능 추가
-# test     : 테스트 코드
-# refactor : 리팩토링
-# fix      : 버그 수정
-# build    : 빌드 수정    
-# ci       : CI 수정
-# docs     : 문서 수정
-# style    : 코드 형식 등
-# chore    : 기타
-################
+
