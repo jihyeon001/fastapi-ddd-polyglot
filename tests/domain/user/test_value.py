@@ -2,7 +2,7 @@ import pytest
 import dataclasses
 
 
-class TestEntity:
+class TestValue:
     @pytest.mark.parametrize(
         "entity_class, dataset",
         (User, {"name": "이름"}),
